@@ -6,5 +6,5 @@
 sips -z 16 16 some.png --out icon_16x16.png
 mkdir some.icontest
 mv icon_16x16.png some.icontest
-iconutils -c icns some.iconset
+iconutil -c icns some.iconset
 ``` 

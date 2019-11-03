@@ -22,3 +22,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+# java
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk13
+brew cask install adoptopenjdk8
+brew install gradle
+

@@ -26,6 +26,10 @@ brew cask install adoptopenjdk11
 brew cask install adoptopenjdk8
 brew install gradle
 
+# js
+brew install node
+npm install -g @vue/cli
+
 # vim
 cp vim/.vimrc ~/
 

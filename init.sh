@@ -28,3 +28,5 @@ brew cask install adoptopenjdk13
 brew cask install adoptopenjdk8
 brew install gradle
 
+# vim
+cp vim/.vimrc ~/

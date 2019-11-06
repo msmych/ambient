@@ -3,8 +3,6 @@
 
 # iterm2
 brew cask install iterm2
-
-# iterm2 color scheme
 git clone https://github.com/MartinSeeler/iterm2-material-design
 
 # keyboard layouts 
@@ -12,12 +10,6 @@ sudo cp "mac/typography-layout/English - IBT.keylayout" "/Library/Keyboard Layou
 sudo cp "mac/typography-layout/English - IBT.icns" "/Library/Keyboard Layouts/"
 sudo cp "mac/typography-layout/Russian - IBT.keylayout" "/Library/Keyboard Layouts/"
 sudo cp "mac/typography-layout/Russian - IBT.icns" "/Library/Keyboard Layouts/"
-
-# httpie
-brew install httpie
-
-# rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # java
 brew tap AdoptOpenJDK/openjdk
@@ -28,10 +20,14 @@ brew install gradle
 
 # js
 brew install node
-npm install -g @vue/cli
 
-# vim
-cp vim/.vimrc ~/
+# httpie
+brew install httpie
+
+# rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustup component add rls rust-analysis rust-src
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

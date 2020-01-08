@@ -5,11 +5,14 @@
 brew cask install iterm2
 git clone https://github.com/MartinSeeler/iterm2-material-design
 
+# vim
+cp vim/.vimrc ~/.
+
 # keyboard layouts 
-sudo cp "mac/typography-layout/English - IBT.keylayout" "/Library/Keyboard Layouts/"
-sudo cp "mac/typography-layout/English - IBT.icns" "/Library/Keyboard Layouts/"
-sudo cp "mac/typography-layout/Russian - IBT.keylayout" "/Library/Keyboard Layouts/"
-sudo cp "mac/typography-layout/Russian - IBT.icns" "/Library/Keyboard Layouts/"
+sudo cp "typography-layout/English - IBT.keylayout" "/Library/Keyboard Layouts/"
+sudo cp "typography-layout/English - IBT.icns" "/Library/Keyboard Layouts/"
+sudo cp "typography-layout/Russian - IBT.keylayout" "/Library/Keyboard Layouts/"
+sudo cp "typography-layout/Russian - IBT.icns" "/Library/Keyboard Layouts/"
 
 # java
 brew tap AdoptOpenJDK/openjdk
@@ -21,8 +24,9 @@ brew install gradle
 # js
 brew install node
 
-# httpie
+# tools
 brew install httpie
+brew install wget
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

@@ -1,1 +1,0 @@
-[Homebrew](https://brew.sh)

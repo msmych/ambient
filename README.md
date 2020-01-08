@@ -1,17 +1,21 @@
 ### Initial setup
 
-1. `xcode-select --install`
-2. `chmod +x init.sh`
-3. `./init.sh`
-4. Add keyboard inputs, remove default one after restarting
-5. Battery -> Show percentage
-6. Set time zone
-7. Dock Preferences 
-  * Position on screen: Left
-  * Minimize windows using: Scale effect
-  * + Automatically hide and show the Dock
-  * - Show recent applications in Dock
-8. Set background picture
+* `xcode-select --install`
+* `ssh-keygen -t rsa -C "msmych@yandex.com"
+* `cat ~/.ssh/id_rsa.pub`
+* `git clone git@github.com:msmych/ambient.git`
+* `chmod +x init.sh`
+* `./init.sh`
+* Write to .zshrc: `export PATH=$HOME/.cargo/bin:$Path`
+* Add keyboard inputs, remove default one after restarting
+* Battery -> Show percentage
+* Set time zone
+* Dock Preferences 
+  - Position on screen: Left
+  - Minimize windows using: Scale effect
+  - v Automatically hide and show the Dock
+  - x Show recent applications in Dock
+* Set background picture
 
 ### Install apps
 * SafeInCloud

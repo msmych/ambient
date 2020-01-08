@@ -16,6 +16,8 @@
 ### Install apps
 * SafeInCloud
 * Outline VPN client and manager
+* Telegram
+* Slack
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/download-thanks.html?platform=mac)
 * [VSCode](https://code.visualstudio.com)
 * [Docker](https://download.docker.com/mac/stable/Docker.dmg)

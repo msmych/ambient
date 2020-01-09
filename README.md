@@ -6,18 +6,20 @@
 * `git clone git@github.com:msmych/ambient.git`
 * `chmod +x init.sh`
 * `./init.sh`
-* Write to .zshrc: `export PATH=$HOME/.cargo/bin:$Path`
+* Write to .zshrc: `export PATH=$HOME/.cargo/bin:$PATH`
 * Add keyboard inputs, remove default one after restarting
 * Battery -> Show percentage
 * Set time zone
-* Dock Preferences 
-  - Position on screen: Left
-  - Minimize windows using: Scale effect
-  - v Automatically hide and show the Dock
-  - x Show recent applications in Dock
-* Set background picture
+
+### Dock Preferences 
+
+* Position on screen: Left
+* Minimize windows using: Scale effect
+* v Automatically hide and show the Dock
+* x Show recent applications in Dock
 
 ### Install apps
+
 * SafeInCloud
 * Outline VPN client and manager
 * Telegram

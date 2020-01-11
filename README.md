@@ -6,10 +6,19 @@
 * `git clone git@github.com:msmych/ambient.git`
 * `chmod +x init.sh`
 * `./init.sh`
-* Write to .zshrc: `export PATH=$HOME/.cargo/bin:$PATH`
 * Add keyboard inputs, remove default one after restarting
 * Battery -> Show percentage
 * Set time zone
+
+### .zshrc
+
+```bash
+# cargo path
+export PATH=$HOME/.cargo/bin:$PATH
+
+# ctags alias
+alias ctags="`brew --prefix`/bin/ctags"
+```
 
 ### Dock Preferences 
 

@@ -6,7 +6,7 @@ brew cask install iterm2
 git clone https://github.com/MartinSeeler/iterm2-material-design
 
 # vim
-cp vim/.vimrc ~/.
+cp .vimrc ~/.
 
 # keyboard layouts 
 sudo cp "typography-layout/English - IBT.keylayout" "/Library/Keyboard Layouts/"

@@ -1,7 +1,7 @@
 ### Initial setup
 
 * `xcode-select --install`
-* `ssh-keygen -t rsa -C "msmych@yandex.com"
+* `ssh-keygen -t rsa -C "msmych@yandex.com"`
 * `cat ~/.ssh/id_rsa.pub`
 * `git clone git@github.com:msmych/ambient.git`
 * `chmod +x init.sh`

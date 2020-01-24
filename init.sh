@@ -20,7 +20,7 @@ brew install gradle
 
 # js
 brew install node
-node install -g @vue/cli
+npm install -g @vue/cli
 
 # tools
 brew install tree

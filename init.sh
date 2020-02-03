@@ -3,7 +3,6 @@
 
 # iterm2
 brew cask install iterm2
-git clone https://github.com/MartinSeeler/iterm2-material-design
 
 # keyboard layouts 
 sudo cp "typography-layout/English - IBT.keylayout" "/Library/Keyboard Layouts/"

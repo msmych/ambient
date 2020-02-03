@@ -41,7 +41,7 @@ alias ctags="`brew --prefix`/bin/ctags"
 
 * General -> Closing -> Uncheck Confirm Quit iTerm2
 * Appearance -> Theme Minimal
-* Profiles -> Colors -> Color presets -> Import iterm2-material-design
+* Profiles -> Colors -> Color presets -> Smoooooth
 * https://design.ubuntu.com/font/ -> install UbuntuMono-R.ttf -> Profiles -> Text -> Font Ubuntu Mono 16
 * Profiles -> Window -> Transparancy 25%
 * Profiles -> Window -> Settings for New Windows -> Columns: 220, Rows: 100

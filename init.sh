@@ -34,6 +34,7 @@ rustup component add rls rust-analysis rust-src
 
 # vim
 cp .vimrc ~/.
+git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

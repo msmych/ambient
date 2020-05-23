@@ -37,13 +37,3 @@ alias ctags="`brew --prefix`/bin/ctags"
 * [VSCode](https://code.visualstudio.com)
 * [Docker](https://download.docker.com/mac/stable/Docker.dmg)
 
-### iterm2
-
-* General -> Closing -> Uncheck Confirm Quit iTerm2
-* Appearance -> Theme Minimal
-* Profiles -> Colors -> Color presets -> Smoooooth
-* https://design.ubuntu.com/font/ -> install UbuntuMono-R.ttf -> Profiles -> Text -> Font Ubuntu Mono 16
-* Profiles -> Window -> Transparancy 25%
-* Profiles -> Window -> Settings for New Windows -> Columns: 220, Rows: 100
-* Profiles -> Keys -> Key Mappings -> + -> Option + Left/Right | Send Escape Sequence | b/f
-* Advanced -> Scroll wheel sends arrow keys when in alternate screen mode -> Yes

@@ -1,0 +1,12 @@
+window:
+  dimensions:
+    columns: 150
+    lines: 50
+font:
+  size: 14.0
+colors:
+  primary:
+    background: '0x14141d'
+background_opacity: 0.75
+selection:
+  save_to_clipboard: true

@@ -1,8 +1,12 @@
 # homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# iterm2
-brew cask install iterm2
+# alacritty
+brew cask install alacritty
+cp .alacritty.yml ~/.
+
+# vim
+cp .vimrc ~/.
 
 # keyboard layouts 
 sudo cp "typography-layout/English - IBT.keylayout" "/Library/Keyboard Layouts/"
@@ -12,9 +16,8 @@ sudo cp "typography-layout/Russian - IBT.icns" "/Library/Keyboard Layouts/"
 
 # java
 brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk13
+brew cask install adoptopenjdk14
 brew cask install adoptopenjdk11
-brew cask install adoptopenjdk8
 brew install gradle
 
 # js
@@ -22,7 +25,6 @@ brew install node
 npm install -g @vue/cli
 
 # tools
-brew install tree
 brew install ctags
 brew install httpie
 brew install wget
@@ -31,9 +33,6 @@ brew install wget
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 rustup component add rls rust-analysis rust-src
-
-# vim
-cp .vimrc ~/.
 git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
 
 # oh-my-zsh

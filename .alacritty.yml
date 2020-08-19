@@ -10,3 +10,6 @@ colors:
 background_opacity: 0.75
 selection:
   save_to_clipboard: true
+key_bindings:
+  - { key: Left,    mods: Alt, chars: "\x1bb" }
+  - { key: Right,   mods: Alt, chars: "\x1bf" }

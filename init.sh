@@ -16,7 +16,7 @@ sudo cp "typography-layout/Russian - IBT.icns" "/Library/Keyboard Layouts/"
 
 # java
 brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk14
+brew cask install adoptopenjdk15
 brew cask install adoptopenjdk11
 brew install gradle
 
@@ -28,6 +28,7 @@ npm install -g @vue/cli
 brew install ctags
 brew install httpie
 brew install wget
+brew install ghc cabal-install
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

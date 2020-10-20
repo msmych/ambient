@@ -24,11 +24,14 @@ brew install gradle
 brew install node
 npm install -g @vue/cli
 
+# haskell
+brew install ghc
+
 # tools
 brew install ctags
 brew install httpie
 brew install wget
-brew install ghc cabal-install
+brew install gh
 
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

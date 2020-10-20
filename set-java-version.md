@@ -1,5 +1,5 @@
 ```bash
 /usr/libexec/java_home -V
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=`/usr/libexec/java_home -v 15`
 java -version
 ```

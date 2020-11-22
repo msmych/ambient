@@ -36,4 +36,5 @@ alias ctags="`brew --prefix`/bin/ctags"
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/download-thanks.html?platform=mac)
 * [VSCode](https://code.visualstudio.com)
 * [Docker](https://download.docker.com/mac/stable/Docker.dmg)
-
+* Affinity Photo
+* Garage Band
